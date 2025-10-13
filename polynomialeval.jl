@@ -9,5 +9,6 @@ function eval_poly(coefficients, x)
     return result
 end
 
-# Example: -1/4x² + 7 → coeffs = [-1/4, 0, 7]
+# Example: -1/4^2 + 7 → coeffs = [-1/4, 0, 7]
+
 println(eval_poly([-1/4, 0, 7], 4))

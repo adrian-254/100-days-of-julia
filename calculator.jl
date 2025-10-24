@@ -21,5 +21,6 @@ elseif op == "^"
     println("Result: ", a ^ b)
 elseif op == "sqrt"
     println("Result is ", a ^ 0.5)
-else println("Invalid Operator")
+else println("Invalid Operation, Please redo the digits")
+
 end

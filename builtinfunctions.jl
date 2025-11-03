@@ -6,3 +6,7 @@ println("Built-in factorial(4): ", factorial(4))
 println("Built-in factorial(5): ", factorial(5))
 println("Built-in factorial(6): ", factorial(6)) #and so on
 
+#For big numbers,i should use `big`  to avoid overflow
+println("Built-in factorial(big(20)): ", factorial(big(20)))
+println("Built-in factorial(big(50)): ", factorial(big(50)))
+
